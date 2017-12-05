@@ -1,4 +1,4 @@
-FROM alpine:3.4
+FROM alpine:3.6
 RUN apk update && apk add mailcap icecast
 VOLUME [ "/var/log/icecast2", "/etc/icecast2" ]
 EXPOSE 8000
