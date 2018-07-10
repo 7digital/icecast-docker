@@ -14,3 +14,4 @@ docker run -p 8000:8000 -v $PWD/sample:/etc/icecast2 icecast
 # run directly
 docker run -p 8000:8000 -v <CONFIG_DIR>:/etc/icecast2 7digital/icecast-docker
 ```
+Available at https://hub.docker.com/r/7digital/icecast-docker/
